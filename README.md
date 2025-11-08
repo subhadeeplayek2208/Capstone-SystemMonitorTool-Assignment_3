@@ -2,6 +2,9 @@
 
 A console-based system monitor tool in C++ that displays real-time information about system processes, memory usage, and CPU load, similar to the 'top' command.
 
+##Project Dashboard
+![System Monitor Tool](output.png)
+
 ## Features
 
 - Real-time system monitoring
@@ -109,3 +112,4 @@ Run the system monitor:
 - Uses `/proc` filesystem for system information (Linux-specific)
 - On Windows, would need to use Windows API (WMI, Performance Counters)
 - Requires appropriate permissions to kill processes
+
